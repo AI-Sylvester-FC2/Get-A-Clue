@@ -1,0 +1,27 @@
+{
+  "name": "get-a-clue",
+  "version": "1.0.0",
+  "description": "Play a game of clue with our AI mystery guide!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "cd client && npm run dev",
+    "server": "cd server && npm run dev",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AI-Sylvester-FC2/Get-A-Clue.git"
+  },
+  "keywords": [],
+  "author": "Robyn, Xavier, Katy",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/AI-Sylvester-FC2/Get-A-Clue/issues"
+  },
+  "homepage": "https://github.com/AI-Sylvester-FC2/Get-A-Clue#readme",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
